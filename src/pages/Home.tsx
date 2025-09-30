@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Zap, DollarSign, Globe, RefreshCw, Clock, TrendingUp } from "lucide-react";
 import LoanApplicationForm from "@/components/LoanApplicationForm";
+import TestimonialsSection from "@/components/TestimonialsSection";
 import heroImage from "@/assets/hero-finance.jpg";
 
 const Home = () => {
@@ -184,6 +185,9 @@ const Home = () => {
           </Button>
         </div>
       </section>
+
+      {/* Testimonials Section */}
+      <TestimonialsSection />
 
       {/* Application Form */}
       <LoanApplicationForm />
